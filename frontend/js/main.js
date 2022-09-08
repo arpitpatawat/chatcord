@@ -11,7 +11,7 @@ const newDate = new Date()
 
 console.log(username, room)
 
-ws = new WebSocket("ws://localhost:8877/ws")
+ws = new WebSocket("ws://localhost:8000/ws")
 
 ws.onopen = () => {
     console.log("ws connect success")
@@ -63,7 +63,7 @@ chatForm.addEventListener('submit', (e) => {
     
     outputMessageSelf({
         username: "you",
-        time: newDate.toDateString(),
+        time: newDate.toLocaleTimeString(),
         data: msg
     })
 
@@ -84,7 +84,7 @@ function outputMessage(msg) {
 function outputMessageSelf(msg) {
     const div = document.createElement('div');
     div.classList.add('message')
-    div.innerHTML = `<p class="meta-self"> ${msg.username} <span> </span></p>
+    div.innerHTML = `<p class="meta-self"> ${msg.username} <span>${msg.time}</span></p>
     <p class="text">
     ${msg.data}
     </p>`
