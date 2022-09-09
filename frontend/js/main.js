@@ -84,7 +84,7 @@ function outputMessage(msg) {
 function outputMessageSelf(msg) {
     const div = document.createElement('div');
     div.classList.add('message')
-    div.innerHTML = `<p class="meta-self"> ${msg.username} <span>${msg.time}</span></p>
+    div.innerHTML = `<p class="meta-self" "> ${msg.username} <span style="color: #777;"> ${msg.time}</span></p>
     <p class="text">
     ${msg.data}
     </p>`

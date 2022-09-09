@@ -1,9 +1,9 @@
 package main
 
 import (
-	"chatgo/initial"
-	"chatgo/src/router"
-	"chatgo/src/ws"
+	"chatcord/initial"
+	"chatcord/src/router"
+	"chatcord/src/ws"
 	"fmt"
 
 	"go.uber.org/zap"

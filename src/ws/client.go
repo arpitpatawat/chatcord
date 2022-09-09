@@ -37,7 +37,7 @@ func (c *Client) Read() {
 	}()
 
 	defer func() {
-		zap.S().Infof("close clien sendChain, %v", c)
+		zap.S().Infof("close client sendChain, %v", c)
 		close(c.SendChain)
 	}()
 

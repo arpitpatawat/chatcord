@@ -1,4 +1,4 @@
-module chatgo
+module chatcord
 
 go 1.18
 

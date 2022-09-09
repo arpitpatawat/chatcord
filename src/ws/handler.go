@@ -1,7 +1,7 @@
 package ws
 
 import (
-	"chatgo/src/model"
+	"chatcord/src/model"
 	"encoding/json"
 	"fmt"
 

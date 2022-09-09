@@ -1,12 +1,21 @@
-# chatgo
+# chatcord
+ Discord Like Mini Chat Room Application that allows users to join different chat rooms and exchange messages in real-time with other users in the same room. The application is built using Go for the backend.The application uses a simple and intuitive user interface, making it easy for users to start chatting with others in no time.
+ 
+# Tools and Technology
 
-使用go和websocket实现一个简易的即时通讯应用，项目受到[chatcord](https://github.com/bradtraversy/chatcord)这个项目的启发，并且复用了该项目的前端页面。
+- Go (Programming Language)
+- Gin (Web Framework)
+- Zap (Logging FrameWork )
+- Gorilla WebSocket (Library for WebSocket)
+- HTML, CSS, JavaScript (Frontend)
 
-## 本地测试
+# Steps to Clone and Run - 
+- `git clone <URI>`
+- go to root page and run `go run main.go`
 
-```shell
-go run letter.go
-```
-
-打开 localhots:8877，输入username并选择房间room，此处room+username确定唯一一个websocket连接。
-![image](image/image1.png)
+# Future Steps
+- User Authentication: Implement user authentication to allow registered users to access personalized chat rooms.
+- Private Messaging: Add support for private messaging between users within a chat room.
+- Emojis and Media Sharing: Allow users to send emojis and share media files in chat messages.
+- Message History: Implement message history to display previous chat messages upon joining a room.
+- User Status: Show online/offline status for users in the chat room.
