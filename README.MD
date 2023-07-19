@@ -5,13 +5,18 @@
 
 - Go (Programming Language)
 - Gin (Web Framework)
-- Zap (Logging FrameWork )
+- Zap (Logging Framework )
 - Gorilla WebSocket (Library for WebSocket)
 - HTML, CSS, JavaScript (Frontend)
 
+ ## Project Images ##
+<span>
+<img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/homePage.png" width = "400">
+ </span>
+
 # Steps to Clone and Run - 
-- `git clone <URI>`
-- go to root page and run `go run main.go`
+- `git clone https://github.com/arpitpatawat/chatcord`
+- go to the root page and run `go run main.go`
 
 # Future Steps
 - User Authentication: Implement user authentication to allow registered users to access personalized chat rooms.
