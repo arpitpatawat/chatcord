@@ -13,6 +13,19 @@
 <span>
 <img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/homePage.png" >
  </span>
+</br>
+<span>
+<img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/me%20alone.png" >
+ </span>
+</br>
+<span>
+<img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/User%202%20joins.png" >
+ </span>
+</br>
+<span>
+<img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/User%202%20pov.png" >
+ </span>
+</br>
 
 # Steps to Clone and Run - 
 - `git clone https://github.com/arpitpatawat/chatcord`
