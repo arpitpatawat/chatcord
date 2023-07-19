@@ -11,7 +11,7 @@
 
  ## Project Images ##
 <span>
-<img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/homePage.png" width = "400">
+<img src="https://github.com/arpitpatawat/chatcord/blob/main/Images/homePage.png" >
  </span>
 
 # Steps to Clone and Run - 
