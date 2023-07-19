@@ -1,5 +1,5 @@
 # chatcord
- Discord Like Mini Chat Room Application that allows users to join different chat rooms and exchange messages in real-time with other users in the same room. The application is built using Go for the backend.The application uses a simple and intuitive user interface, making it easy for users to start chatting with others in no time.
+ Discord Like Mini Chat Room Application that allows users to join different chat rooms and exchange private messages in real time with other users in the same room. The application is built using Go for the backend. The application uses a simple and intuitive user interface, making it easy for users to start chatting with others in no time.
  
 # Tools and Technology
 
@@ -30,6 +30,7 @@
 # Steps to Clone and Run - 
 - `git clone https://github.com/arpitpatawat/chatcord`
 - go to the root page and run `go run main.go`
+- open `http://localhost:8000/` in browser to access the webapp. 
 
 # Future Steps
 - User Authentication: Implement user authentication to allow registered users to access personalized chat rooms.
